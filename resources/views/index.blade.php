@@ -1,7 +1,7 @@
 hello world!
 
-{{-- @foreach ($travels as $travel) --}}
+@foreach ($travels as $travel)
 
-  {{-- @dump($travel); --}}
+  @dump($travel);
     
-{{-- @endforeach --}}
+@endforeach
